@@ -1,5 +1,4 @@
 import './SearchBar.css';
-import react from 'react';
 import React from 'react';
 
 const sortByOptions = {
@@ -26,7 +25,7 @@ class SearchBar extends React.Component {
           <input placeholder="Where?" />
         </div>
         <div className="SearchBar-submit">
-          <a>Let's Go</a>
+          <a href="www.#.com">Let's Go</a>
         </div>
       </div>
     );
